@@ -7,7 +7,7 @@
 		</update>
 	</info>
 	<files>
-		<file name="class-priest.xml" url="https://https://raw.githubusercontent.com/Tallen4720/test/master/world-of-greystone/class-priest.xml" />
-		<file name="class-witch.xml" url="https://https://raw.githubusercontent.com/Tallen4720/test/master/world-of-greystone/class-witch.xml" />
+		<file name="class-priest.xml" url="https://raw.githubusercontent.com/Tallen4720/test/master/world-of-greystone/class-priest.xml" />
+		<file name="class-witch.xml" url="https://raw.githubusercontent.com/Tallen4720/test/master/world-of-greystone/class-witch.xml" />
 	</files>
 </index>
