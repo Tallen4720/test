@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Priest Class</name>
+        <update version="0.0.1">
+            <file name="class-priest.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/class-priest.xml" />
+        </update>
+    </info>
+    
+    <element name="DnD Wiki Priest Class" type="Source" source="Core" id="ID_DNDWIKI_SOURCE_PRIEST_CLASS">
+        <description>
+            <![CDATA[<p></p>]]>
+        </description>
+        <setters>
+            <set name="abbreviation"></set>
+            <set name="url">https://www.dandwiki.com/wiki/Priest_(5e_Class)</set>
+            <set name="image"></set>
+            <set name="author" abbreviation="WOTC" url="">D&amp;D Wiki</set>
+            <set name="official">false</set>
+            <set name="supplement">false</set>
+            <set name="playtest">false</set>
+            <set name="third-party">false</set>
+            <set name="homebrew">true</set>
+            <set name="league">false</set>
+            <set name="release">20200118</set>
+        </setters>
+    </element>
+    
+    <element name="Priest" type="Class" source="DnD Wiki Priest Class" id="ID_DNDWIKI_CLASS_PRIEST">
+        <description>
+            <p>It does not matter if I follow the path to the light or down the winding trail of Purgatory. My faith will see me through to the end. </p>
+            <h4>CREATING A PRIEST</h4>
+            <p></p>
+            <h5 class="caption">QUICK BUILD</h5>
+            <p>You can make a Priest quickly by following these suggestions. First, Wisdom should be your highest ability score, followed by Dexterity. Second, choose the Hermit background. Third, choose Mace or a whip and a priest’s pack.</p>
+            <h2>CLASS FEATURES</h2>
+            <p>As a priest, you gain the following class features.</p>
+            <h5 class="caption">HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d8 per priest level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per lowercaseclassname level after 1st</li>
+            </ul>
+            <h5 class="caption">PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> None</li>
+                <li><strong>Weapons:</strong> Clubs, daggers, maces, light hammer, maul, flail, quarterstaffs, whips, Light crossbow</li>
+                <li><strong>Tools:</strong> Herbalism kit</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Wisdom, Constitution</li>
+                <li><strong>Skills:</strong> You gain the Religion skill, and Choose 2 from Animal Handling, Arcana, Athletics, History, Insight, Medicine, Perception, Persuasion,</li>
+            </ul>
+            <h5 class="caption">EQUIPMENT</h5>
+            <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+            <ul>
+                <li>(a) a mace or (b) a whip</li>
+                <li>(a) light crossbow and 20 bolts or (b) maul</li>
+                <li>(a) a explorer’s pack or (b) a priest’s pack</li>
+                <li>A holy symbol</li>
+            </ul>
+            <p>If you are using starting wealth, you have 4d6 in funds.</p>
+        <!-- class table here -->
+            <h5 class="caption">THE </h5>
+            <table class="class-features">
+                <thead>
+                    <tr><td class="col-5">Level</td><td class="col-10">Proficiency Bonus</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+                </thead>
+                <tr><td> 1st</td><td>+2</td><td class="left">Spellcasting, Unyielding Faith</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 2nd</td><td>+2</td><td class="left">Faith</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 3rd</td><td>+2</td><td class="left">—</td><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 4th</td><td>+2</td><td class="left">Ability Score Improvement</td><td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 5th</td><td>+3</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 6th</td><td>+3</td><td class="left">Faith Feature, Improved Unyielding Faith</td><td>4</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 7th</td><td>+3</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 8th</td><td>+3</td><td class="left">Ability Score Improvement</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 9th</td><td>+4</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>10th</td><td>+4</td><td class="left">Faith Feature</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>11th</td><td>+4</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>12th</td><td>+4</td><td class="left">Ability Score Improvement</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td>13th</td><td>+5</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+                <tr><td>14th</td><td>+5</td><td class="left">Faith Feature</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+                <tr><td>15th</td><td>+5</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+                <tr><td>16th</td><td>+5</td><td class="left">Ability Score Improvement</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+                <tr><td>17th</td><td>+6</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+                <tr><td>18th</td><td>+6</td><td class="left">Faith Mastery</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+                <tr><td>19th</td><td>+6</td><td class="left">Ability Score Improvement</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+                <tr><td>20th</td><td>+6</td><td class="left">Deity’s Blessing</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+            </table>
+            <div element="ID_DNDWIKI_CLASS_FEATURE_PRIEST_SPELLCASTING" />
+            <div element="ID_DNDWIKI_CLASS_FEATURE_PRIEST_UNYIELDING_FAITH" />
+            <div element="ID_DNDWIKI_CLASS_FEATURE_PRIEST_FAITH" />
+            <div element="ID_DNDWIKI_CLASS_FEATURE_PRIEST_ABILITY_SCORE_INCREASE" />
+            <div element="ID_DNDWIKI_CLASS_FEATURE_PRIEST_FAITH_MASTERY" />
+            <div element="ID_DNDWIKI_CLASS_FEATURE_PRIEST_DEITYS_BLESSING" />
+            <h3>MULTICLASSING</h3>
+            <p><strong>Prerequisites.</strong> To qualify for multiclassing into the Priest class, you must meet these prerequisites: you must have atleast 13 in wisdom. </p>
+            <p><strong>Proficiencies.</strong> When you multiclass into the Priest class, you gain the following proficiencies: Religion</p>
+        </description>
+        <setters>
+            <set name="hd">d8</set>
+        </setters>
+        <sheet display="false" />
+        <rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" requirements="!ID_DNDWIKI_MULTICLASS_PRIEST"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_DNDWIKI_MULTICLASS_PRIEST"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE" requirements="!ID_DNDWIKI_MULTICLASS_PRIEST"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_DNDWIKI_MULTICLASS_PRIEST"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER" requirements="!ID_DNDWIKI_MULTICLASS_PRIEST" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL" requirements="!ID_DNDWIKI_MULTICLASS_PRIEST" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL" requirements="!ID_DNDWIKI_MULTICLASS_PRIEST" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP" requirements="!ID_DNDWIKI_MULTICLASS_PRIEST" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" requirements="!ID_DNDWIKI_MULTICLASS_PRIEST" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" requirements="!ID_DNDWIKI_MULTICLASS_PRIEST"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
+            <select type="Proficiency" name="Skill Proficiency, Priest" number="2" supports="DnD Wiki Priest" />
+            <grant type="Class Feature" id="ID_DNDWIKI_CLASS_FEATURE_PRIEST_SPELLCASTING" level="1" />
+            <grant type="Class Feature" id="ID_DNDWIKI_CLASS_FEATURE_PRIEST_UNYIELDING_FAITH" level="1" />
+            <grant type="Class Feature" id="ID_DNDWIKI_CLASS_FEATURE_PRIEST_FAITH" level="2" />
+            <grant type="Class Feature" id="ID_DNDWIKI_CLASS_FEATURE_PRIEST_ABILITY_SCORE_INCREASE" level="4" />
+            <grant type="Class Feature" id="ID_DNDWIKI_CLASS_FEATURE_PRIEST_FAITH_MASTERY" level="18" />
+            <grant type="Class Feature" id="ID_DNDWIKI_CLASS_FEATURE_PRIEST_DEITYS_BLESSING" level="20" />
+        </rules>
+        <multiclass id="ID_DNDWIKI_MULTICLASS_PRIEST">
+            <prerequisite>Wisdom 13</prerequisite>
+            <requirements>[wis:13]</requirements>
+            <setters>
+                <set name="multiclass proficiencies">Religion</set>
+            </setters>
+            <rules>
+                <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+            </rules>
+        </multiclass>
+    </element>
+        <element name="Spellcasting" type="Class Feature" source="Player’s Handbook" id="ID_DNDWIKI_CLASS_FEATURE_PRIEST_SPELLCASTING">
+            <description>
+                <p>As a conduit for divine power, you can cast priest spells.</p>
+                <h5 class="caption">CANTRIPS</h5>
+                <p>At 1st level, you know three cantrips of your choice from the priest spell list. You learn additional priest cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Priest table.</p>
+                <h5 class="caption">PREPARING AND CASTING SPELLS</h5>
+                <p>The Priest table shows how many spell slots you have to cast your priest spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p>
+                <p class="indent">You prepare the list of priest spells that are available for you to cast, choosing from the priest spell list. When you do so, choose a number of priest spells equal to your Wisdom modifier + your priest level (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
+                <p class="indent">For example, if you are a 3rd-level priest, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn’t remove it from your list of prepared spells.</p>
+                <p class="indent">You can change your list of prepared spells when you finish a long rest. Preparing a new list of priest spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</p>
+                <h5 class="caption">SPELLCASTING ABILITY</h5>
+                <p>Wisdom is your spellcasting ability for your priest spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a priest spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a priest spell you cast and when making an attack roll with one.</p>
+                <center>
+                    <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
+                    <p><strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
+                </center>
+                <h5 class="caption">RITUAL CASTING</h5>
+                <p>You can cast a priest spell as a ritual if that spell has the ritual tag and you have the spell prepared.</p>
+                <h5 class="caption">SPELLCASTING FOCUS</h5>
+                <p>You can use a holy symbol as a spellcasting focus for your priest spells.</p>
+                <h5>LEARNING SPELLS OF 1ST LEVEL AND HIGHER</h5>
+                <p>Each time you gain a priest level, you can add two priest spells of your choice to your spellbook for free. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook (see the “Your Spellbook” sidebar).</p>
+            </description>
+            <sheet>
+                <description>You can cast priest spells as rituals. You can prepare {{priest:spellcasting:prepare}} spells from the priest spell list. You can use a holy symbol as your spellcasting focus.</description>
+            </sheet>
+            <spellcasting name="Priest" ability="Wisdom" prepare="true">
+                <list>DnD Wiki Priest</list>
+            </spellcasting>
+            <rules>
+                <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+                <grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+                <grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_HOLY_SYMBOL" />
+
+                <stat name="priest:spellcasting:slots:1" value="2" level="1" />
+                <stat name="priest:spellcasting:slots:1" value="1" level="2" />
+                <stat name="priest:spellcasting:slots:1" value="1" level="3" />
+                <stat name="priest:spellcasting:slots:2" value="2" level="3" />
+                <stat name="priest:spellcasting:slots:2" value="1" level="4" />
+                <stat name="priest:spellcasting:slots:3" value="2" level="5" />
+                <stat name="priest:spellcasting:slots:3" value="1" level="6" />
+                <stat name="priest:spellcasting:slots:4" value="1" level="7" />
+                <stat name="priest:spellcasting:slots:4" value="1" level="8" />
+                <stat name="priest:spellcasting:slots:4" value="1" level="9" />
+                <stat name="priest:spellcasting:slots:5" value="1" level="9" />
+                <stat name="priest:spellcasting:slots:5" value="1" level="10" />
+                <stat name="priest:spellcasting:slots:5" value="1" level="18" />
+                <stat name="priest:spellcasting:slots:6" value="1" level="11" />
+                <stat name="priest:spellcasting:slots:6" value="1" level="19" />
+                <stat name="priest:spellcasting:slots:7" value="1" level="13" />
+                <stat name="priest:spellcasting:slots:7" value="1" level="20" />
+                <stat name="priest:spellcasting:slots:8" value="1" level="15" />
+                <stat name="priest:spellcasting:slots:9" value="1" level="17" />
+
+                <stat name="priest:spellcasting:prepare" value="wisdom:modifier" />
+                <stat name="priest:spellcasting:prepare" value="level:priest" />
+
+                <select type="Spell" name="Cantrip (Priest)" supports="$(spellcasting:list), 0" level="1" number="3" spellcasting="Priest" />
+                <select type="Spell" name="Cantrip (Priest)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="Priest" />
+                <select type="Spell" name="Cantrip (Priest)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Priest" />
+                <select type="Spell" name="Spellbook (Priest)" supports="$(spellcasting:list), 1" level="1" number="6" spellcasting="Priest" />
+                <select type="Spell" name="Spellbook (Priest)" supports="$(spellcasting:list), $(spellcasting:slots)" level="2" number="2" spellcasting="Priest" />
+                <select type="Spell" name="Spellbook (Priest)" supports="$(spellcasting:list), $(spellcasting:slots)" level="3" number="2" spellcasting="Priest" />
+                <select type="Spell" name="Spellbook (Priest)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" number="2" spellcasting="Priest" />
+                <select type="Spell" name="Spellbook (Priest)" supports="$(spellcasting:list), $(spellcasting:slots)" level="5" number="2" spellcasting="Priest" />
+                <select type="Spell" name="Spellbook (Priest)" supports="$(spellcasting:list), $(spellcasting:slots)" level="6" number="2" spellcasting="Priest" />
+                <select type="Spell" name="Spellbook (Priest)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" number="2" spellcasting="Priest" />
+                <select type="Spell" name="Spellbook (Priest)" supports="$(spellcasting:list), $(spellcasting:slots)" level="8" number="2" spellcasting="Priest" />
+                <select type="Spell" name="Spellbook (Priest)" supports="$(spellcasting:list), $(spellcasting:slots)" level="9" number="2" spellcasting="Priest" />
+                <select type="Spell" name="Spellbook (Priest)" supports="$(spellcasting:list), $(spellcasting:slots)" level="10" number="2" spellcasting="Priest" />
+                <select type="Spell" name="Spellbook (Priest)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" number="2" spellcasting="Priest" />
+                <select type="Spell" name="Spellbook (Priest)" supports="$(spellcasting:list), $(spellcasting:slots)" level="12" number="2" spellcasting="Priest" />
+                <select type="Spell" name="Spellbook (Priest)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" number="2" spellcasting="Priest" />
+                <select type="Spell" name="Spellbook (Priest)" supports="$(spellcasting:list), $(spellcasting:slots)" level="14" number="2" spellcasting="Priest" />
+                <select type="Spell" name="Spellbook (Priest)" supports="$(spellcasting:list), $(spellcasting:slots)" level="15" number="2" spellcasting="Priest" />
+                <select type="Spell" name="Spellbook (Priest)" supports="$(spellcasting:list), $(spellcasting:slots)" level="16" number="2" spellcasting="Priest" />
+                <select type="Spell" name="Spellbook (Priest)" supports="$(spellcasting:list), $(spellcasting:slots)" level="17" number="2" spellcasting="Priest" />
+                <select type="Spell" name="Spellbook (Priest)" supports="$(spellcasting:list), $(spellcasting:slots)" level="18" number="2" spellcasting="Priest" />
+                <select type="Spell" name="Spellbook (Priest)" supports="$(spellcasting:list), $(spellcasting:slots)" level="19" number="2" spellcasting="Priest" />
+                <select type="Spell" name="Spellbook (Priest)" supports="$(spellcasting:list), $(spellcasting:slots)" level="20" number="2" spellcasting="Priest" />
+            </rules>
+        </element>
+        <element name="Unyielding Faith" type="Class Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_CLASS_FEATURE_PRIEST_UNYIELDING_FAITH">
+            <description>
+                <p>Beginning at 1st level, while you are wearing no armor you may use your Wisdom modifier instead of your Dexterity modifier to determine your AC.</p>
+                <p class="indent">When you reach 6th level, you may add your Dexterity modifier and your Wisdom modifier to your AC.</p>
+            </description>
+            <sheet display="false">
+                <description></description>
+            </sheet>
+            <rules>
+                <stat name="ac:unarmored defense monk:base" value="10" />
+                <stat name="ac:unarmored defense monk:dexterity" value="dexterity:modifier" requirements="[level:priest:6]" />
+                <stat name="ac:unarmored defense monk:wisdom" value="wisdom:modifier" />
+                <stat name="ac:unarmored defense monk" value="ac:unarmored defense monk:base" />
+                <stat name="ac:unarmored defense monk" value="ac:unarmored defense monk:dexterity" requirements="[level:priest:6]" />
+                <stat name="ac:unarmored defense monk" value="ac:unarmored defense monk:wisdom" />
+                <stat name="ac:calculation" value="ac:unarmored defense monk" bonus="calculation" equipped="[armor:none],[shield:none]" alt="Unyielding Faith (Priest)" />
+            </rules>
+        </element>
+        <element name="Faith" type="Class Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_CLASS_FEATURE_PRIEST_FAITH">
+            <description>
+                <p>At 2nd level, you chose a Faith to follow. Choose between Faith in the Heavens, Faith in the Abyss, detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th levels.</p>
+            </description>
+            <sheet display="false">
+                <description></description>
+            </sheet>
+            <rules>
+                <select type="Archetype" name="Faith" supports="DnD Wiki Priest Faith" />
+            </rules>
+        </element>
+        <element name="Ability Score Increase" type="Class Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_CLASS_FEATURE_PRIEST_ABILITY_SCORE_INCREASE">
+            <description>
+                <p>When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+            </description>
+            <sheet display="false">
+                <description></description>
+            </sheet>
+            <rules>
+                <select type="Class Feature" name="Improvement Option (Priest 4)" supports="Improvement Option,Priest,4" level="4" />
+                <select type="Class Feature" name="Improvement Option (Priest 8)" supports="Improvement Option,Priest,8" level="8" />
+                <select type="Class Feature" name="Improvement Option (Priest 12)" supports="Improvement Option,Priest,12" level="12" />
+                <select type="Class Feature" name="Improvement Option (Priest 16)" supports="Improvement Option,Priest,16" level="16" />
+                <select type="Class Feature" name="Improvement Option (Priest 19)" supports="Improvement Option,Priest,19" level="19" />
+            </rules>
+        </element>
+        <element name="Faith Mastery" type="Class Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_CLASS_FEATURE_PRIEST_FAITH_MASTERY">
+            <description>
+                <p>At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st level Priest spell and a 2nd level Priest spell that are in your spell book that are not an evocation spell. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal. Once you choose the 1st and 2nd level spell you may not change them.</p>
+            </description>
+            <sheet>
+                <description>Choose a 1st level Priest spell and a 2nd level Priest spell that are in your spell book that are not an evocation spell. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal. Once you choose the 1st and 2nd level spell you may not change them.</description>
+            </sheet>
+        </element>
+        <element name="Deity’s Blessing" type="Class Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_CLASS_FEATURE_PRIEST_DEITYS_BLESSING">
+            <description>
+                <p>At 20th level when you have given everything you have to your deity it gives everything in return. You can spend 10 minutes of prayer to your deity to regain up to 9 levels of expended spell slots (for example, a 3rd level, a 4th level and a 5th level = 9. or you may take 1 9th level. or 9 1st level slots). You must choose the slots during this 10 minutes. they can not be changed once taken. Once you regain spell slots with this feature you must finish a long rest before you can do so again. </p>
+            </description>
+            <sheet usage="1/Long Rest">
+                <description>You can spend 10 minutes of prayer to your deity to regain up to 9 levels of expended spell slots</description>
+            </sheet>
+        </element>
+
+    <element name="Faith in the Heavens" type="Archetype" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_PRIEST_FAITH_IN_THE_HEAVENS">
+        <supports>DnD Wiki Priest Faith</supports>
+        <description>
+            <p>At 2nd level, your faith in the heavens allows you to charge your holy focus with power and use this Holy Power for various things. In addition, you may pray to your deity for 1 hour on one weapon you have. Your deity will bless the weapon allowing you to use your wisdom modifier in place of the weapon’s usual modifier.you may only have one blessed weapon at any given time. You also gain the cantrip produce flame. This particular flame does radiant damage instead of fire damage. You may add your wisdom modifier to the radiant damage of this Produce Flame.</p>
+            <div element="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITH_RADIANT_WEAPON" />
+            <div element="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITH_HOLY_POWER" />
+            <div element="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITH_HAND_OF_FAITH" />
+            <div element="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITH_BLIND_FAITH" />
+            <div element="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITH_ASCENSION" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITH_RADIANT_WEAPON" level="2" />
+            <grant type="Archetype Feature" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITH_HOLY_POWER" level="2" />
+            <grant type="Archetype Feature" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITH_HAND_OF_FAITH" level="6" />
+            <grant type="Archetype Feature" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITH_BLIND_FAITH" level="10" />
+            <grant type="Archetype Feature" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITH_ASCENSION" level="14" />
+        </rules>
+    </element>
+        <element name="Radiant Weapon" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITH_RADIANT_WEAPON">
+            <description>
+                <p>You may pray to your deity for 1 hour on one weapon you have. Your deity will bless the weapon allowing you to use your wisdom modifier in place of the weapon’s usual modifier. You may only have one blessed weapon at any given time. You also gain the cantrip <em>produce flame</em>. This particular flame does radiant damage instead of fire damage. You may add your Wisdom modifier to the radiant damage of this Produce Flame.</p>
+            </description>
+            <sheet>
+                <description>Attacks with your radiant weapon get +{{wisdom:modifier}} bonus to attacks and damage. When you cast produce flame, it does radiant damage instead of fire damage, and does an additional {{wisdom:modifier}} damage.</description>
+            </sheet>
+            <rules>
+                <grant type="Spell" id="ID_PHB_SPELL_PRODUCE_FLAME" known="true" spellcasting="Priest" />
+            </rules>
+        </element>
+        <element name="Holy Power" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITH_HOLY_POWER">
+            <description>
+                <p>Your knowledge in religion allows you to gain more faith in what you are doing. You gain a resource called holy power. The holy power maximum is equal to the Religion skill. Some of your holy power ability’s use a Faith Dice. The faith dice for these abilities is a 1d6. You regain Holy Power after a long rest.</p>
+                <h5>Using Holy Power</h5>
+                <p>Choose 2 abilities from the holy power abilities set. You may expend 1 holy power to use the abilities unless the ability states otherwise. These abilities can be used in which they are described. Choose another at 5th, 11th, 15th and 19th level.</p>
+            </description>
+            <sheet usage="{{holy-power:uses}}/Long Rest">
+                <description>Your Faith Die is 1d{{faith-dice:type}}.</description>
+            </sheet>
+            <rules>
+                <stat name="holy-power:uses" value="proficiency" requirements="ID_PROFICIENCY_SKILL_RELIGION" />
+                <stat name="holy-power:uses" value="proficiency" requirements="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_RELIGION_DOUBLE" />
+                <stat name="holy-power:uses" value="intelligence:modifier" />
+                <stat name="faith-dice:type" value="6" bonus="base" level="2" />
+                <stat name="faith-dice:type" value="8" bonus="base" level="6" />
+                <stat name="faith-dice:type" value="10" bonus="base" level="10" />
+                <stat name="faith-dice:type" value="12" bonus="base" level="14" />
+                <select type="Archetype Feature" name="Holy Power Ability" number="2" supports="DnD Wiki Priest Holy Power" level="2" />
+                <select type="Archetype Feature" name="Holy Power Ability" supports="DnD Wiki Priest Holy Power" level="5" />
+                <select type="Archetype Feature" name="Holy Power Ability" supports="DnD Wiki Priest Holy Power" level="11" />
+                <select type="Archetype Feature" name="Holy Power Ability" supports="DnD Wiki Priest Holy Power" level="15" />
+                <select type="Archetype Feature" name="Holy Power Ability" supports="DnD Wiki Priest Holy Power" level="19" />
+            </rules>
+        </element>
+        <element name="Hand of Faith" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITH_HAND_OF_FAITH">
+            <description>
+                <p>Beginning at 6th level, the healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell’s level. You also gain Double Proficiency in Religion.</p>
+                <p class="indent">Your Faith dice Improves to 1d8.</p>
+            </description>
+            <sheet>
+                <description>When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell’s level.</description>
+            </sheet>
+            <rules>
+                <grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_RELIGION_DOUBLE" />
+            </rules>
+        </element>
+        <element name="Blind Faith" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITH_BLIND_FAITH">
+            <description>
+                <p>At 10th level you may pray to your deity to guide you under any circumstance. This will give you a Clarity on which way to go if you do not know the next step in your path. It can also guide you in combat. You gain Blindsight 30 feet for 1 minute. You must complete a long rest before you can use this ability again.</p>
+                <p class="indent">Your faith dice improves to 1d10.</p>
+            </description>
+            <sheet usage="1/Long Rest">
+                <description>You gain Blindsight 30 feet for 1 minute.</description>
+            </sheet>
+        </element>
+        <element name="Ascension" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITH_ASCENSION">
+            <description>
+                <p>At 14th level you ascend as a priest of high faith. Your deity deems you worthy among his guardians and grants you the wings of an angel. You can manifest the angel wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn. The wings manifest from a spiritual plane and will mold most armor to suit their needs.</p>
+                <p class="indent">Your faith dice improves to 1d12.</p>
+            </description>
+            <sheet action="Bonus Action">
+                <description>You can manifest the angel wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn. The wings manifest from a spiritual plane and will mold most armor to suit their needs.</description>
+            </sheet>
+        </element>
+
+
+    <element name="Faith in the Abyss" type="Archetype" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_PRIEST_FAITH_IN_THE_ABYSS">
+        <supports>DnD Wiki Priest Faith</supports>
+        <description>
+            <p></p>
+            <div element="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_SNAKE_HEAD_WHIP" />
+            <div element="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_THRALL_CHAMPION" />
+            <div element="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_EMBRACE_THE_ABYSS" />
+            <div element="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_LINKED_TO_YOUR_THRALL" />
+            <div element="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_CASTLE_OF_THE_ABYSS" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_SNAKE_HEAD_WHIP" level="2" />
+            <grant type="Archetype Feature" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_THRALL_CHAMPION" level="2" />
+            <grant type="Archetype Feature" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_EMBRACE_THE_ABYSS" level="6" />
+            <grant type="Archetype Feature" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_LINKED_TO_YOUR_THRALL" level="10" />
+            <grant type="Archetype Feature" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_CASTLE_OF_THE_ABYSS" level="14" />
+        </rules>
+    </element>
+        <element name="Snake Head Whip" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_SNAKE_HEAD_WHIP">
+            <description>
+                <p>At the 2nd level if you choose this faith to follow. After 8 hours of prayer, your deity grants you a snake whip to wield. This weapon is a whip with a single snake head on the end of it and appears to be living. It uses your wisdom modifier for attacks and damage. Otherwise use the whip as weapons stats. You are proficient with this weapon. At 5th, 11th, 15th and 19th level you gain an additional snake head.</p>
+                <p class="indent">Your snake whip may eat other Non-Sentient weapons to gain their properties (+1 +2 or +3, or if the weapon has defender properties) however this item is lost to the void. If the snake whip eats another weapon it looses the abilities gained from the previous weapon. The weapon itself is not destroyed but sent to a different plane of existence offered to the Priest’s deity.</p>
+                <h5>Snake head and the effects</h5>
+                <p>When you hit an opponent with the snake whip the creature takes piercing damage equal 1d6 per head. The creature must make a Constitution saving throw upon failure, they are poisoned. The poison does 1d6 necrotic damage at the beginning of your turn. They may repeat the constitution roll at the end of their turns in order to try to overcome being poisoned. If the creature died while still under the effects of the venom, the Priest may take 10 minutes as a ritual to create a Thrall champion from the creature (humanoid only).</p>
+            </description>
+            <sheet>
+                <description>Your snake head whip has {{snake-head:count}} snake head. When you hit an opponent with the snake whip the creature takes piercing damage equal 1d6 per head. The creature must make a Constitution saving throw upon failure, they are poisoned. The poison does 1d6 necrotic damage at the beginning of your turn. They may repeat the saving throw at the end of their turn in order to try to overcome being poisoned. If the creature died while still under the effects of the venom, the Priest may take 10 minutes as a ritual to create a Thrall champion from the creature (humanoid only).</description>
+            </sheet>
+            <rules>
+                <stat name="snake-head:count" value="1" level="2" />
+                <stat name="snake-head:count" value="1" level="5" />
+                <stat name="snake-head:count" value="1" level="11" />
+                <stat name="snake-head:count" value="1" level="15" />
+                <stat name="snake-head:count" value="1" level="19" />
+            </rules>
+        </element>
+        <element name="Thrall Champion" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_THRALL_CHAMPION">
+            <description>
+                <p>The thrall loses its multi attack action, if it has one.</p>
+                <p class="indent">The thrall obeys your commands as best it can. It keeps its movement and uses your initiative. Your thrall has abilities and game statistics determined in part by your level. Your thrall uses your proficiency bonus rather than its own. In addition to areas where it normally uses its proficiency bonus, also adds it proficiency bonus to its damage rolls.</p>
+                <p class="indent">Your thrall champion gains proficiency in two skills of your choice. It also becomes proficient with all saving throws. For each level gained after 2nd, your thrall gains an additional hit die and increases its (Base max) hit points accordingly.</p>
+                <p class="indent">Whenever you gain the ability score improvement class feature, your thrall’s abilities also improve. Your thrall can increase one ability score of your choice by 2, or it can increase two ability scores by 1. As normal, your thrall can not increase its ability score above 20 using this feature unless its description specifies otherwise.</p>
+                <p class="indent">Your thrall shares its alignment, personality trait and a flaw of the snake head that created. (select from the table below). Your thrall shares your ideal and its bond is always “my Deity wishes me to take care of this Priest. I will do so with my life” (this is mostly for rp purposes).</p>
+                <p class="indent">>Maintaining your thrall requires the priest to be conscious.</p>
+                <h5>Summoning your Thrall</h5>
+                <p>In order to summon your thrall, you must sacrifice hit points and your hit point maximum by the amount you choose. By giving the deity your life blood and essence you then take that and add your proficiency modifier and your wisdom modifier with the amount sacrificed. Multiply it by two and you will summon a thrall with the total as its max hit points (this amount cannot exceed the amount for the thralls base maximum. See “thrall champion”. If your thrall has not been injured beyond 10% of its maximum life you will get this back when the thrall is released. If your thrall has been injured divide its hit-points by 2 and return that to your hit-points and maximum. Your maximum hit-points will return to normal upon a short/long rest that your thrall is not active during.</p>
+                <p class="indent">You may summon as many thrall champions as you have snake heads for this ability. However, your snake whip is reduced by a head per summoned thrall. only one thrall may attack when you use your Attack action per turn.</p>
+                <p class="indent">Thralls must be humanoid.</p>
+                <p class="indent"><strong>Spellcasting Thrall:</strong> when using spells of your spell casting thrall. The spell will use your spell slot to cast them. If the spell is not from the priest spell book you do not get your proficiency modifier to the DC save or the chance to hit. a spell casting thrall uses its attack action if able on your attack action. you may use an action to cast a cantrip from the Thrall’s spell list. you also may cast spells from either you or your spell casting thrall from both spell books. you must have a spell casting thrall summoned to use its abilities.</p>
+                <p class="indent">when you use your attack action you may use one thralls attack action at the same time.</p>
+            </description>
+            <sheet>
+                <description>You may have up to {{snake-head:count}} thralls at one time. In order to summon your thrall, you must sacrifice hit points and your hit point maximum by the amount you choose.</description>
+            </sheet>
+        </element>
+        <element name="Embrace the Abyss" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_EMBRACE_THE_ABYSS">
+            <description>
+                <p>Beginning at 6th level you may add your spellcasting modifier to all spells that do force or necrotic damage. In addition, once per turn when you kill one or more creatures with a spell of 1st level or higher, you regain hit points equal to twice the spells level or three times its level if the spell belongs to the school of necromancy. You do not gain this benefit for killing constructs or undead. In addition, your necrotic poison will heal you for half the damage you inflict.</p>
+            </description>
+            <sheet>
+                <description>You +{{spellcasting:attack}} to all spells that do force or necrotic damage. In addition, once per turn when you kill one or more creatures with a spell of 1st level or higher, you regain hit points equal to twice the spells level or three times its level if the spell belongs to the school of necromancy.</description>
+            </sheet>
+        </element>
+        <element name="Linked to your Thrall" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_LINKED_TO_YOUR_THRALL">
+            <description>
+                <p>Beginning at the 10th level, you can use your Thrall’s line of sight and perception as well as your own. In addition, when an enemy is anywhere between where you and your Thrall are standing, you gain advantage on attack rolls against that enemy while they are in that area.</p>
+            </description>
+            <sheet>
+                <description>You can use your Thrall’s line of sight and perception as well as your own. In addition, when an enemy is anywhere between where you and your Thrall are standing, you gain advantage on attack rolls against that enemy while they are in that area.</description>
+            </sheet>
+        </element>
+        <element name="Castle of the Abyss" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_CASTLE_OF_THE_ABYSS">
+            <description>
+                <p>Beginning at the 14th level, you can use your Thrall to escape danger or get into opportune positions. Your deity allows you to switch places with your Thrall. You can use this ability as many times as your Charisma modifier + 1 (a minimum of 1) per long rest. </p>
+            </description>
+            <sheet usage="{{castle-abyss:uses}}/Long Rest">
+                <description>Your deity allows you to switch places with your Thrall.</description>
+            </sheet>
+            <rules>
+                <stat name="castle-abyss:uses" value="1" />
+                <stat name="castle-abyss:uses" value="charisma:modifier" />
+            </rules>
+        </element>
+
+
+  <!-- Priest Skills -->
+    <append id="ID_PROFICIENCY_SKILL_ANIMALHANDLING">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PROFICIENCY_SKILL_ARCANA">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PROFICIENCY_SKILL_ATHLETICS">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PROFICIENCY_SKILL_HISTORY">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PROFICIENCY_SKILL_INSIGHT">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PROFICIENCY_SKILL_MEDICINE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PROFICIENCY_SKILL_PERCEPTION">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PROFICIENCY_SKILL_PERSUASION">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+
+  <!-- Faith in the Heavens Holy Power Abilities -->
+    <element name="Divine Guidance" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_HOLY_POWER_DIVINE_GUIDANCE">
+        <supports>DnD Wiki Priest Holy Power</supports>
+        <description>
+            <p>As a free action, you spend 1 holy power and gain 1 Faith dice added to check or save. You can use this after seeing the initial roll but before using the Faith dice.</p>
+        </description>
+        <sheet usage="Holy Power">
+            <description>As a free action, you spend 1 holy power and gain 1 Faith dice added to check or save. You can use this after seeing the initial roll but before using the Faith dice.</description>
+        </sheet>
+    </element>
+    <element name="Retribution" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_HOLY_POWER_RETRIBUTION">
+        <supports>DnD Wiki Priest Holy Power</supports>
+        <description>
+            <p>As a reaction when you take damage you can deal radiant damage back to the target equal to 1 Faith dice. At 7th level you my spend 2 holy power to deal 2 faith dice. At 15th level you may spend 3 Holy power to deal 3 faith dice worth of damage. </p>
+        </description>
+        <sheet usage="Holy Power" action="Reaction">
+            <description>When you take damage you expend up to {{retribution:count}} Faith dice to deal {{retribution:count}}d{{faith-dice:type}} radiant damage to the attacker.</description>
+        </sheet>
+        <rules>
+            <stat name="retribution:count" value="1" level="2" />
+            <stat name="retribution:count" value="1" level="7" />
+            <stat name="retribution:count" value="1" level="15" />
+        </rules>
+    </element>
+    <element name="Smite" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_HOLY_POWER_SMITE">
+        <supports>DnD Wiki Priest Holy Power</supports>
+        <description>
+            <p>Using a holy power, you may add 1 faith dice roll to your <em>produce flame</em> spell damage. When the enemy takes this damage they reduce the amount of damage they do on their next attack by an amount equal to their Intelligence modifier + the priest level.</p>
+        </description>
+        <sheet usage="Holy Power">
+            <description>Using a holy power, you may add 1 faith dice roll to your produce flame spell damage. When the enemy takes this damage they reduce the amount of damage they do on their next attack by {{holy-power:smite-damage}}.</description>
+        </sheet>
+        <rules>
+            <stat name="holy-power:smite-damage" value="intelligence:modifier" />
+            <stat name="holy-power:smite-damage" value="level:priest" />
+        </rules>
+    </element>
+    <element name="Preach the Faith" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_HOLY_POWER_PREACH_THE_FAITH">
+        <supports>DnD Wiki Priest Holy Power</supports>
+        <description>
+            <p>As a bonus action, you spend 1 holy power to inspire another player. They receive a faith dice to be used as inspiration. They may add this dice to checks and saving throws.</p>
+        </description>
+        <sheet usage="Holy Power" action="Bonus Action">
+            <description>You spend 1 holy power to inspire another player. They receive a faith dice to be used as inspiration. They may add this dice to checks and saving throws.</description>
+        </sheet>
+    </element>
+    <element name="Godly strike" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_HOLY_POWER_GODLY_STRIKE">
+        <supports>DnD Wiki Priest Holy Power</supports>
+        <requirements>[level:priest:5]</requirements>
+        <prerequisite>5th level Priest</prerequisite>
+        <description>
+            <p>As a bonus action, you can spend 1 holy power to crit on a natural 19 or 20 until the end of your turn. 15th level or higher, 2 holy power to crit on natural 18 to 20. You may only gain this ability at level 5 or higher.</p>
+        </description>
+        <sheet usage="Holy Power" action="Bonus Action">
+            <description>You can spend 1 holy power to crit on a natural 19 or 20 until the end of your turn.</description>
+            <description level="15">You can spend 2 holy power to crit on a natural 18 to 20 until the end of your turn.</description>
+        </sheet>
+    </element>
+    <element name="Immaculate healing" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_HOLY_POWER_IMMACULATE_HEALING">
+        <supports>DnD Wiki Priest Holy Power</supports>
+        <description>
+            <p>As a bonus action, spend 3 holy power to add Faith dice equal to the amount of dice used with your healing spell (example lvl 2 cure wounds 2d8 +2 faith dice). This can not be used with Healing Flame.</p>
+        </description>
+        <sheet usage="Holy Power" action="Bonus Action">
+            <description>You spend 3 holy power to add Faith dice equal to the amount of dice used with your healing spell. This can not be used with Healing Flame.</description>
+        </sheet>
+    </element>
+    <element name="Sanctified Spell" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_HOLY_POWER_SANCTIFIED_SPELL">
+        <supports>DnD Wiki Priest Holy Power</supports>
+        <description>
+            <p>As a bonus action, using 2 holy power will allow you to use a spell of 2nd level or lower without using a spell slot.</p>
+        </description>
+        <sheet usage="Holy Power" action="Bonus Action">
+            <description>Using 2 holy power will allow you to use a spell of 2nd level or lower without using a spell slot.</description>
+        </sheet>
+    </element>
+    <element name="Celestial Reaction" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_HOLY_POWER_CELESTIAL_REACTION">
+        <supports>DnD Wiki Priest Holy Power</supports>
+        <description>
+            <p>Upon use of a reaction spell, you can use 1 holy power to add your Faith dice to that spell. (example: “shield” gives you bonus +5 AC + Faith dice roll).</p>
+        </description>
+        <sheet usage="Holy Power">
+            <description>Upon use of a reaction spell, you can use 1 holy power to add your Faith dice to that spell.</description>
+        </sheet>
+    </element>
+    <element name="Gauntlet of Faith" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_HOLY_POWER_GAUNTLET_OF_FAITH">
+        <supports>DnD Wiki Priest Holy Power</supports>
+        <description>
+            <p>As an action, you may spend 1 holy power to raise your AC by 1. This does not stack. (At level 7, 2 holy power for 2.) (At level 15 3 holy power for 3). This lasts for 1 minute and does not work if the priest is wearing any armor.</p>
+        </description>
+        <sheet usage="Holy Power" action="Action">
+            <description>You may spend 1 holy power to raise your AC by 1. This does not stack. This lasts for 1 minute and does not work if the priest is wearing any armor.</description>
+            <description level="7">You may spend 1 holy power to raise your AC by 1, 2 holy power for +2. This does not stack. This lasts for 1 minute and does not work if the priest is wearing any armor.</description>
+            <description level="15">You may spend 1 holy power to raise your AC by 1, 2 holy power for +2, 3 holy power for +3. This does not stack. This lasts for 1 minute and does not work if the priest is wearing any armor.</description>
+        </sheet>
+    </element>
+    <element name="Holy Terror" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_HOLY_POWER_HOLY_TERROR">
+        <supports>DnD Wiki Priest Holy Power</supports>
+        <description>
+            <p>As an action, you can spend 1 holy power against a target who must make a Wisdom saving throw vs your DC or be terrified of you until your next turn.</p>
+        </description>
+        <sheet usage="Holy Power" action="Action">
+            <description>You can spend 1 holy power against a target who must make a Wisdom saving throw (save DC {{spellcasting:dc}}) or be terrified of you until your next turn.</description>
+        </sheet>
+    </element>
+    <element name="Blinding Light" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_HOLY_POWER_BLINDING_LIGHT">
+        <supports>DnD Wiki Priest Holy Power</supports>
+        <description>
+            <p>As an action, you can spend 2 holy powers to create a blinding light from your religious symbol that shines out in a 15 ft cone in front of you. All creatures within the cone must make an Intelligence saving throw vs your DC or be blinded for 2 rounds. </p>
+        </description>
+        <sheet usage="Holy Power" action="Action">
+            <description>You can spend 2 holy powers to create a blinding light from your religious symbol that shines out in a 15 ft cone in front of you. All creatures within the cone must make an Intelligence saving throw (save DC {{spellcasting:dc}}) or be blinded for 2 rounds.</description>
+        </sheet>
+    </element>
+    <element name="Untainted" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_HOLY_POWER_UNTAINTED">
+        <supports>DnD Wiki Priest Holy Power</supports>
+        <description>
+            <p>As a free action, spend 1 holy power when you cast a heal add a Faith dice + spell level to any heal spell.</p>
+        </description>
+        <sheet usage="Holy Power">
+            <description>As a free action, spend 1 holy power when you cast a heal add a Faith dice + spell level to any heal spell.</description>
+        </sheet>
+    </element>
+    <element name="Pure" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_HOLY_POWER_PURE">
+        <supports>DnD Wiki Priest Holy Power</supports>
+        <description>
+            <p>As a bonus action you spend 3 holy power, when casting a healing spell, all dice are the maximum they can be.</p>
+        </description>
+        <sheet usage="Holy Power" action="Bonus Action">
+            <description>You spend 3 holy power, when casting a healing spell, all dice are the maximum they can be.</description>
+        </sheet>
+    </element>
+    <element name="Undefiled" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_HOLY_POWER_UNDEFILED">
+        <supports>DnD Wiki Priest Holy Power</supports>
+        <description>
+            <p>As a bonus action, spend 1 holy power to add Faith dice to any damage.</p>
+        </description>
+        <sheet usage="Holy Power" action="Bonus Action">
+            <description>You spend 1 holy power to add Faith dice to any damage.</description>
+        </sheet>
+    </element>
+    <element name="Holy Nova" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_HOLY_POWER_HOLY_NOVA">
+        <supports>DnD Wiki Priest Holy Power</supports>
+        <description>
+            <p>As an action you can spend up to 4 holy power on this ability. You use your faith to create a blast of radiant energy in a 20-foot area around you. Healing allies for Faith dice, and harming enemies in the area for half as much. This damage is Radiant damage.</p>
+        </description>
+        <sheet usage="Holy Power" action="Action">
+            <description>You can spend up to 4 holy power on this ability. You use your faith to create a blast of radiant energy in a 20-foot area around you. Healing allies for Faith dice, and harming enemies in the area for half as much. This damage is Radiant damage.</description>
+        </sheet>
+    </element>
+    <element name="Healing Flame" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_HOLY_POWER_HEALING_FLAME">
+        <supports>DnD Wiki Priest Holy Power</supports>
+        <description>
+            <p>Spending 1 holy power you may use your radiant produce flame to heal any ally equal to the dmg you roll for produce flame + 1 Faith dice. 2 holy power at 5h level, 3 holy power at 11th level and 4 holy power at 17th level.  Add one faith dice for each holy power used beyond the first.</p>
+        </description>
+        <sheet usage="Holy Power">
+            <description>Spending up to {{healing-flame:dice-count}} holy power you may use your radiant produce flame to heal any ally equal to the damage you roll for produce flame plus 1 Faith dice for each holy power spent.</description>
+        </sheet>
+        <rules>
+            <stat name="healing-flame:dice-count" value="1" level="2" />
+            <stat name="healing-flame:dice-count" value="1" level="5" />
+            <stat name="healing-flame:dice-count" value="1" level="11" />
+            <stat name="healing-flame:dice-count" value="1" level="17" />
+        </rules>
+    </element>
+    <element name="Exorcise" type="Archetype Feature" source="DnD Wiki Priest Class" id="ID_DNDWIKI_PRIEST_ARCHETYPE_FEATURE_FITA_HOLY_POWER_EXORCISE">
+        <supports>DnD Wiki Priest Holy Power</supports>
+        <description>
+            <p>You spend 1 holy power as a bonus action to mark a target for Exorcism. All damage done by you to this target deals an extra faith dice damage (much like hunter’s mark). The exorcism doesn’t take place until the creature is hit by the priest in some way. You maintain the mark using concentration.</p>
+        </description>
+        <sheet usage="Holy Power" action="Bonus Action">
+            <description>You spend 1 holy power to mark a target for Exorcism. All damage done by you to this target deals an extra faith dice damage. Requires concentration.</description>
+        </sheet>
+    </element>
+
+  <!-- Priest Spells -->
+    <append id="ID_PHB_SPELL_BLADE_WARD">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DANCING_LIGHTS">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ELDRITCH_BLAST">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FRIENDS">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GUIDANCE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LIGHT">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MAGE_HAND">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_MAGIC_STONE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MENDING">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MESSAGE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PRESTIDIGITATION">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_RESISTANCE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SACRED_FLAME">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SPARE_THE_DYING">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_SCAG_SPELL_SWORD_BURST">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_THAUMATURGY">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_ABSORB_ELEMENTS">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ALARM">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BANE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BLESS">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_COMPREHEND_LANGUAGES">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CURE_WOUNDS">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DETECT_EVIL_AND_GOOD">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DETECT_MAGIC">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DETECT_POISON_AND_DISEASE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DISSONANT_WHISPERS">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DIVINE_FAVOR">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FAERIE_FIRE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FALSE_LIFE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GOODBERRY">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HEALING_WORD">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HEROISM">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_IDENTIFY">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_INFLICT_WOUNDS">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_RAY_OF_SICKNESS">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SANCTUARY">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SHIELD">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SHIELD_OF_FAITH">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SLEEP">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WRATHFUL_SMITE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_UNSEEN_SERVANT">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_AID">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_AUGURY">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BLINDNESS_DEAFNESS">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BRANDING_SMITE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CALM_EMOTIONS">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DARKNESS">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GENTLE_REPOSE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HOLD_PERSON">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LESSER_RESTORATION">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LEVITATE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LOCATE_OBJECT">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MISTY_STEP">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PRAYER_OF_HEALING">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PROTECTION_FROM_POISON">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_RAY_OF_ENFEEBLEMENT">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SEE_INVISIBILITY">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SILENCE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_SKYWRITE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SPIRITUAL_WEAPON">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WARDING_BOND">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ZONE_OF_TRUTH">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ANIMATE_DEAD">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_AURA_OF_VITALITY">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BEACON_OF_HOPE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BLINDING_SMITE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BESTOW_CURSE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CREATE_FOOD_AND_WATER">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CRUSADERS_MANTLE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DAYLIGHT">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FEAR">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FEIGN_DEATH">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GLYPH_OF_WARDING">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MASS_HEALING_WORD">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_REMOVE_CURSE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_REVIVIFY">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SPEAK_WITH_DEAD">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TONGUES">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_VAMPIRIC_TOUCH">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WATER_WALK">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_AURA_OF_LIFE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_AURA_OF_PURITY">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BANISHMENT">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BLIGHT">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DEATH_WARD">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DIVINATION">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GUARDIAN_OF_FAITH">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LOCATE_CREATURE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_OTILUKES_RESILIENT_SPHERE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PHANTASMAL_KILLER">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_STAGGERING_SMITE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ANTILIFE_SHELL">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BANISHING_SMITE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CIRCLE_OF_POWER">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CONTACT_OTHER_PLANE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CONTAGION">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_DAWN">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DISPEL_EVIL_AND_GOOD">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DESTRUCTIVE_WAVE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DOMINATE_PERSON">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GREATER_RESTORATION">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HALLOW">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_HOLY_WEAPON">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_INSECT_PLAGUE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MASS_CURE_WOUNDS">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_RAISE_DEAD">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_REINCARNATE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PLANE_BINDING">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_BLADE_BARRIER">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CIRCLE_OF_DEATH">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CREATE_UNDEAD">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DISINTEGRATE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FIND_THE_PATH">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FORBIDDANCE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GUARDS_AND_WARDS">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HARM">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HEAL">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HEROES_FEAST">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MASS_SUGGESTION">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_PRIMORDIAL_WARD">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SUNBEAM">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TRUE_SEEING">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WORD_OF_RECALL">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CONJURE_CELESTIAL">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DIVINE_WORD">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ETHEREALNESS">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FINGER_OF_DEATH">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PLANE_SHIFT">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_POWER_WORD_PAIN">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_REGENERATE">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_RESURRECTION">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SYMBOL">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_TEMPLE_OF_THE_GODS">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ANTIMAGIC_FIELD">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HOLY_AURA">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_MADDENING_DARKNESS">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_POWER_WORD_STUN">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MASS_HEAL">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_POWER_WORD_KILL">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_PSYCHIC_SCREAM">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TRUE_RESURRECTION">
+        <supports>DnD Wiki Priest</supports>
+    </append>
+
+</elements>
